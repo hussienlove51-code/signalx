@@ -1,0 +1,86 @@
+name: signalx
+description: تطبيق إدارة أبراج الإنترنت - SignalX
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase
+  supabase_flutter: ^2.3.0
+
+  # إدارة الحالة
+  provider: ^6.1.1
+
+  # الإشعارات
+  flutter_local_notifications: ^16.3.2
+
+  # الرسوم البيانية
+  fl_chart: ^0.67.0
+
+  # تنسيق التواريخ
+  intl: ^0.19.0
+
+  # أيقونات
+  iconsax: ^0.0.8
+
+  # تحميل ناعم
+  shimmer: ^3.0.0
+
+  # حفظ بيانات محلية
+  shared_preferences: ^2.2.2
+
+  # UUID
+  uuid: ^4.3.3
+
+  # HTTP
+  http: ^1.2.0
+
+  # PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # مشاركة الملفات
+  share_plus: ^9.1.0
+
+  # مسار الملفات
+  path_provider: ^2.1.2
+
+  # روابط خارجية (واتساب)
+  url_launcher: ^6.2.5
+
+  # Offline & Local DB
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  connectivity_plus: ^6.0.3
+
+  # Auth hashing
+  crypto: ^3.0.3
+
+  # Maps & location
+  google_maps_flutter: ^2.6.1
+  geolocator: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
